@@ -30,9 +30,9 @@ class GFG {
 class Solution {
     int missingNumber(int array[], int n) {
         // Your Code Here
-        
-        int xor=0;//1^2^3^4^5
-        int xorFrom1ToN = 0;//1
+
+        int xor=0;
+        int xorFrom1ToN = 0;
         for(int i=1;i<=n;i++){
             xorFrom1ToN =xorFrom1ToN^i;
         }
